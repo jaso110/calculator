@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D4E8ED;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: right;
+    background-color: #5B60FF;
+    color: #D4E8ED;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 334px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    width: 100%;
+}
+
+.btn-jansoft {
+    width: 250px;
+}
+
+.btn-blank {
+    visibility: hidden;
+}
+
+.btn-reset {
+    background-color: #D78512;
+}
+
+.btn-equal {
+    width: 331px;
+    background-color: #4CAF4F;
+}
